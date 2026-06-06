@@ -1,21 +1,46 @@
-# online-marketing-management-system
+# Online Marketing Campaign Management System
 
-## Project Description
-This system is designed to help marketing agencies manage clients, campaigns, budgets, and sales.
+## Introduction
+
+The Online Marketing Campaign Management System is a web-based application developed to assist marketing agencies in managing clients, campaigns, budgets, and campaign performance records efficiently.
+
+## Problem Statement
+
+Many marketing agencies use manual methods to manage client information and marketing campaigns. These methods often result in poor record management, delayed reporting, and difficulties in monitoring campaign performance.
+
+## Main Objective
+
+To develop a web-based Online Marketing Campaign Management System that improves campaign monitoring and client management.
+
+## Specific Objectives
+
+- To manage client information.
+- To create and manage marketing campaigns.
+- To monitor campaign budgets.
+- To track campaign performance.
+- To generate reports.
 
 ## Technologies Used
-- XHTML/HTML
-- CSS
+
+- HTML5
+- CSS3
 - JavaScript
 - PHP
 - MySQL
+- GitHub
 
-## Modules
-- User Management
-- Client Management
-- Campaign Management
-- Sales Tracking
-- Reports
+## System Modules
+
+1. User Authentication
+2. Client Management
+3. Campaign Management
+4. Performance Tracking
+5. Report Generation
 
 ## Developer
-David Vicent 
+
+David Vicent
+
+## Project Status
+
+Project Under Development
