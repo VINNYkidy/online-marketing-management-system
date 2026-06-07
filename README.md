@@ -37,6 +37,14 @@ To develop a web-based Online Marketing Campaign Management System that improves
 4. Performance Tracking
 5. Report Generation
 
+## Advanced Features
+
+- Client Search
+- Client Deletion
+- Dashboard Statistics
+- Campaign Performance Tracking
+- System Reports
+
 ## Developer
 
 David Vicent
