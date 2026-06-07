@@ -25,3 +25,33 @@ footer{
     text-align:center;
     padding:15px;
 }
+.login-container{
+
+width:350px;
+
+margin:100px auto;
+
+padding:20px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+text-align:center;
+}
+
+input{
+
+width:90%;
+
+padding:10px;
+}
+
+button{
+
+padding:10px 20px;
+
+cursor:pointer;
+}
