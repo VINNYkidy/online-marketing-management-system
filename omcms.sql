@@ -43,3 +43,22 @@ CREATE TABLE performance(
     FOREIGN KEY(campaign_id)
     REFERENCES campaigns(campaign_id)
 );
+CREATE TABLE performance(
+
+performance_id INT
+AUTO_INCREMENT PRIMARY KEY,
+
+campaign_id INT,
+
+clicks INT,
+
+leads INT,
+
+sales INT,
+
+record_date DATE,
+
+FOREIGN KEY(campaign_id)
+REFERENCES campaigns(campaign_id)
+
+);
