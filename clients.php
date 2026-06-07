@@ -30,3 +30,58 @@ $data = mysqli_query($conn,"SELECT * FROM clients");
 <?php echo $row['client_name']; ?>
 </p>
 <?php } ?>
+<form method="GET">
+<input type="text"
+name="search"
+placeholder="Search Client">
+
+<button type="submit">
+Search
+</button>
+</form>
+if(isset($_GET['search'])){
+
+$search = $_GET['search'];
+
+$data = mysqli_query(
+$conn,
+"SELECT * FROM clients
+WHERE client_name
+LIKE '%$search%'"
+);
+
+}else{
+
+$data = mysqli_query(
+$conn,
+"SELECT * FROM clients"
+);
+
+}
+<?php while($row = mysqli_fetch_array($data)){ ?>
+
+<p>
+
+<?php echo $row['client_name']; ?>
+
+<a href="clients.php?delete=<?php
+echo $row['client_id']; ?>">
+
+Delete
+
+</a>
+
+</p>
+
+<?php } ?>
+if(isset($_GET['delete'])){
+
+$id = $_GET['delete'];
+
+mysqli_query(
+$conn,
+"DELETE FROM clients
+WHERE client_id='$id'"
+);
+
+}
