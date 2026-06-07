@@ -1,46 +1,33 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<head>
+include("includes/config.php");
 
-<title>Dashboard</title>
+$c1 = mysqli_num_rows(
+mysqli_query($conn,
+"SELECT * FROM clients")
+);
 
-<link rel="stylesheet"
-href="assets/css/style.css">
+$c2 = mysqli_num_rows(
+mysqli_query($conn,
+"SELECT * FROM campaigns")
+);
 
-</head>
-
-<body>
-
-<header>
+?>
 
 <h1>Dashboard</h1>
 
-</header>
+<div>
 
-<section>
+<h3>Total Clients</h3>
 
-<h2>Welcome Administrator</h2>
+<p><?php echo $c1; ?></p>
 
-<p>
-Manage clients, campaigns,
-budgets and reports.
-</p>
+</div>
 
-<ul>
+<div>
 
-<li>Client Management</li>
+<h3>Total Campaigns</h3>
 
-<li>Campaign Management</li>
+<p><?php echo $c2; ?></p>
 
-<li>Performance Tracking</li>
-
-<li>Reports</li>
-
-</ul>
-
-</section>
-
-</body>
-
-</html>
+</div>
