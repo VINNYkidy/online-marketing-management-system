@@ -55,3 +55,54 @@ padding:10px 20px;
 
 cursor:pointer;
 }
+
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+/* Sidebar */
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#1f3b57;
+    position:fixed;
+    padding:20px;
+}
+
+.sidebar h2{
+    color:white;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+    margin-top:5px;
+}
+
+.sidebar a:hover{
+    background:#2c5c85;
+}
+
+/* Main content */
+.main{
+    margin-left:240px;
+    padding:20px;
+}
+
+/* Cards */
+.cards{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
