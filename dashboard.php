@@ -26,6 +26,7 @@ if(!isset($_SESSION['user'])){
     <a href="modules/performance.php">Performance</a>
     <a href="modules/reports.php">Reports</a>
     <a href="logout.php">Logout</a>
+    <a href="modules/reports.php">Reports</a>
     <a href="modules/performance.php">Performance</a>
 </div>
 
